@@ -3,7 +3,7 @@
 I'm currently a first-year Computer Science student at National University of Singapore (NUS). I'm used to be a physics enjoyer, participating in the International Physics Olympiad (IPhO). However, my interest shifted towards software engineering, programming languages, and algorithms. You can read more from my blogs [here](blogs/index.md).
 
 #### Interests
-- Programming Language
+- Programming Language development
 - Algorithmic problem solving
 - Software Development
 
