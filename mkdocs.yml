@@ -1,5 +1,5 @@
 site_name: CATISNOTSODIUM
-site_url: https://catisnotsodium.vercel.app/
+site_url: https://catisnotsodium.github.io/docs/
 theme:
   name: material
   features:
