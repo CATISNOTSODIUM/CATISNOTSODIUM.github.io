@@ -64,5 +64,5 @@ A finite automata model for evaluating the efficiency of various boarding and di
 A decision model (FAHP) for selecting the ideal pet based on factors such as household income and geographic location.
 
 - **The 2023 High School Mathematical Contest in Modeling (HiMCM) - Finalist Award**<br>
-<small> Task: Picking the Perfect Pet </small><br>
+<small> Task: Dandelions </small><br>
 Developed a finite automata model to predict and analyze the ecological and economic impacts of dandelion (Taraxacum officinale) proliferation.
