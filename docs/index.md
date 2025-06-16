@@ -6,7 +6,7 @@ I'm currently a first-year Computer Science student at National University of Si
 - Programming Language development
 - Algorithmic problem solving
 - Software Development
-
+- [Noncasual Running](blogs/running.md)
 ---
 ## Work Experiences
 - **Software Developer at Computing for
