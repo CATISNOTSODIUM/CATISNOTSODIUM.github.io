@@ -6,6 +6,11 @@ theme:
     - navigation.tabs
     - header.autohide
     - navigation.footer
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -29,6 +34,11 @@ markdown_extensions:
       toc_depth: 2  # Only include H2 and H3 in the ToC
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 extra:
   social:
     - icon: fontawesome/brands/github 
