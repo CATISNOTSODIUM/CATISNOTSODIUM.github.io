@@ -36,7 +36,7 @@ Implemented a question-checker backend for Canarie, an AI assistant learning pla
 
 ### Source Academy
 **Enhancing Stepper (Reduction-based Substitutor)** <br>
-<small>Jan 2025 - May 2025 | [js-slang PR](https://github.com/source-academy/js-slang/pull/1742) |  [Frontend PR](https://github.com/source-academy/frontend/pull/3125) </small>
+<small>Jan 2025 - May 2025 | [js-slang PR](https://github.com/source-academy/js-slang/pull/1742) |  [Frontend PR](https://github.com/source-academy/frontend/pull/3125) | [Mu term documentation](https://github.com/source-academy/js-slang/blob/master/src/tracer/tracer_supplementary_slides.pdf)</small>
 
 - Collaborated on the reimplementation of stepper, a step-by-step program execution visualization tool, adhering to [reduction logic](https://en.wikipedia.org/wiki/Lambda_calculus) to ensure correctness and enhance source code maintainability.<br>
 - Creating a React custom code renderer from ESTree (inspired by [`react-ace`](https://www.npmjs.com/package/react-ace) and [`astring`](https://www.npmjs.com/package/astring) libraries) for the new stepper. You can try it out [here](https://sourceacademy.org/playground). Make sure that you select Source §1 or 2 and select the double arrow tab on the right to play with stepper.
