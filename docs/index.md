@@ -27,11 +27,6 @@ Developed and implemented an API management system for an essay grading platform
 Developed and maintained the official website for Thai students in Singapore. Developed an E-Card component for the ATSIS student membership system, enabling digital membership verification
 and streamlined access to exclusive benefits.
 
-**Back-end developer intern at CMKL University** <br>
-<small>May 2024 - Jun 2024 | Rust, Python </small><br>
-Implemented a question-checker backend for Canarie, an AI assistant learning platform, utilizing the `axum-prisma-graphql` framework. Developed GraphQL APIs to validate user questions in Rust. Developed Robin, a Canarie CLI Database Management tool for administrators and teachers, serving as an abstraction layer between users and the backend database endpoint, simplifying database interactions.
----
-
 ## Open Source Contributions
 
 ### Source Academy
