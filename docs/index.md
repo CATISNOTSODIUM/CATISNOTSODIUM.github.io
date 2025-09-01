@@ -8,6 +8,11 @@ I'm currently a first-year Computer Science student at National University of Si
 - Software Development
 - [Running](blogs/running.md)
 ---
+## Teaching Assistant
+**CS1101S Teaching Assistant** <br>
+<small>AY 25/26 Sem 1</small><br>
+Prepare studio materials and conduct weekly two-hour tutorial sessions for students. All of my teaching materials can be accessed [here](blogs/CS1101S.md).
+
 ## Work Experiences
 **Software Developer at Computing for
 Voluntary Welfare Organisations (CVWO)** <br>
