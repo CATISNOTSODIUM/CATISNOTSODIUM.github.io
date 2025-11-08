@@ -3,15 +3,15 @@
 I'm currently a Computer Science student at National University of Singapore (NUS). I'm used to be a physics enjoyer, participating in the International Physics Olympiad (IPhO). However, my interest shifted towards software engineering, programming languages, and algorithms. 
 
 #### Interests
+- Parallel Programming
 - Programming Language development
-- Algorithmic problem solving
 - Software Development
 - [Running](blogs/running.md)
 ---
 ## Teaching Assistant
 **CS1101S Teaching Assistant** <br>
 <small>AY 25/26 Sem 1</small><br>
-Prepare studio materials and conduct weekly two-hour tutorial sessions for students. All of my teaching materials can be accessed [here](blogs/CS1101S.md).
+Prepare studio materials and conduct weekly two-hour tutorial sessions for students. You can read my blog [here](blogs/CS1101S.md).
 
 ## Work Experiences
 **Software Developer at Computing for
