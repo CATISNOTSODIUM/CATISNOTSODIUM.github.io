@@ -1,0 +1,1027 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://catisnotsodium.github.io/docs/blogs/NUS_modules_review/">
+      
+      
+        <link rel="prev" href="../CS1101S/">
+      
+      
+        <link rel="next" href="../running/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>NUS Modules Review - CATISNOTSODIUM</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#nus-modules-review" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CATISNOTSODIUM" class="md-header__button md-logo" aria-label="CATISNOTSODIUM" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CATISNOTSODIUM
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NUS Modules Review
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Thitiwat Kosolpattanadurong
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+  Blogs
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CATISNOTSODIUM" class="md-nav__button md-logo" aria-label="CATISNOTSODIUM" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    CATISNOTSODIUM
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Thitiwat Kosolpattanadurong
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blogs
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Blogs
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blogs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CS1101S/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CS1101S Teaching Experience
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NUS Modules Review
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NUS Modules Review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nus-modules-taken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NUS Modules Taken
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2030s-programming-methodology-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2030S - Programming Methodology II
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ma1522-linear-algebra-for-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MA1522 - Linear Algebra for Computing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2100-computer-organisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2100 Computer Organisation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2106-introduction-to-operating-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2106 Introduction to Operating Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs3230-design-and-analysis-of-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS3230 Design and Analysis of Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2103t-software-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2103T Software Engineering
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../running/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    My running journey
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stepper/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reimplementing stepper
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Algo dump
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Algo dump
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../algo-dump/min-max-path/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Minimizing the sum of the minimum and maximum edge weights along a path.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nus-modules-taken" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NUS Modules Taken
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2030s-programming-methodology-ii" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2030S - Programming Methodology II
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ma1522-linear-algebra-for-computing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MA1522 - Linear Algebra for Computing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2100-computer-organisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2100 Computer Organisation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2106-introduction-to-operating-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2106 Introduction to Operating Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs3230-design-and-analysis-of-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS3230 Design and Analysis of Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cs2103t-software-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CS2103T Software Engineering
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="nus-modules-review">NUS Modules Review<a class="headerlink" href="#nus-modules-review" title="Permanent link">&para;</a></h1>
+<h2 id="nus-modules-taken">NUS Modules Taken<a class="headerlink" href="#nus-modules-taken" title="Permanent link">&para;</a></h2>
+<p>A list of relevant (Math and CS) modules I have taken in NUS. </p>
+<details>
+  <summary>AY 24/25 Semester 1 (Dean's list)</summary>
+  <ul>
+    <li>CS1101S (A+, top student)</li>
+    <li>CS1231S (A+, top student)</li>
+    <li>MA1521 (A+)</li>
+    <li>ST1131 (A)</li>
+  </ul>
+</details>
+
+<details>
+  <summary>AY 24/25 Semester 2 (Dean's list)</summary>
+  <ul>
+    <li>CS2100 (A+)</li>
+    <li>CS2030S (A+)</li>
+    <li>CS2040S (A+)</li>
+    <li>MA1522 (A+)</li>
+    <li>ST2334 (A+)</li>
+  </ul>
+</details>
+
+<details>
+  <summary>AY 25/26 Semester 1</summary>
+  <ul>
+    <li>CS2103T (A-)</li>
+    <li>CS2104 (B+)</li>
+    <li>CS2106 (A+)</li>
+    <li>CS3230 (A)</li>
+  </ul>
+</details>
+<hr />
+<h2 id="cs2030s-programming-methodology-ii">CS2030S - Programming Methodology II<a class="headerlink" href="#cs2030s-programming-methodology-ii" title="Permanent link">&para;</a></h2>
+<p>Personally, the content of this module was well organized. The community (Ed discussion) was very active, and the lecturers were really great (preferably among the best I've taken in Y1). Programming exercises were a little bit challenging, but if you know what you are trying to do, it's not that bad. Even though it is not compulsory to complete all exercises in this semester, it's still a great exercise for students to familarize students with OOP and FP paradigms in one semester. Forcing students to use Vim was also one of the best decisions in my opinion. Although the getting used to it is very hard, It's really worth if you want to code faster.</p>
+<p>However, the exams and PEs hindered me from enjoying this module. The exams (especially midterm) had a lot of typos, and the wrongly implemented min function in PE1 wrecked many students so bad, including me. Moreover, the infamous XOR question that aimed to test monad can posed unfair advantages for students who knew XOR before (either from CS2100 or other stuffs). Even though voiding these questions might seem unfair, I felt the lecturers should have taken more responsibility in setting them or at least conducted a thorough recheck of the exam.</p>
+<h2 id="ma1522-linear-algebra-for-computing">MA1522 - Linear Algebra for Computing<a class="headerlink" href="#ma1522-linear-algebra-for-computing" title="Permanent link">&para;</a></h2>
+<p>A very interesting introductory linear algebra module that covers wide range of topics, including concepts like eigenspaces and SVD decomposition. This is a hybrid module, where lecture contents were prerecorded and the actual f2f lecture slot served as a recitation session. Though the f2f lecture was not mandatory, it's a pretty great session for me to revise the content learnt throughout the videos. In addition, the lecturer spent some time going through exercises and optional challenges which were mostly proof-based. Even though this course does not require you to write any proofs (spoken by the lecturer himself), going through proofs really helped be consolidate my thoughts and make this course more fulfilling.</p>
+<p>Speaking of the lecturer, he was very kind and dedicated to his teaching. Even though his teaching style was a little bit dry compared to previous iterations of this module, he's still great and very friendly. I also had some small talks with him before the session in later weeks. It's kinda sad that not many people did attend his lecture. I wish more people attended his lecture in the future.</p>
+<p>Assessments
+- A lot of lecture quiz (it gets kinda annoying at times)
+- Three written assignments (The question style was similar to tutorial questions)
+- Final Exam: Not that hard. The difficulty of the questions was similar to assignment questions.</p>
+<p>Overall, this is a great module. It becomes abstract at times, but it remains manageable with decent effort.</p>
+<h2 id="cs2100-computer-organisation">CS2100 Computer Organisation<a class="headerlink" href="#cs2100-computer-organisation" title="Permanent link">&para;</a></h2>
+<p>What an interesting roller coaster ride! This module is infamous for being one of the most annoying modules among trinity modules, and it actually is. Since all video contents were pre recorded, it’s recommended to stay ahead of the lecture a week or two, especially when you took it with CS2030s and CS2040s (in case you want to take trinity)</p>
+<p>Now, let’s talk about the module itself. The content before the midterm was a whirlwind tour to number systems, C programming, and MIPS Processor. I really loved how the lecturer spent two weeks on MIPS since it’s very relevant to what we might encounter in the future. Moreover, these topics were pretty fascinating for me, and I actually enjoyed every bit (no pun intended) of them and I expected to keep this feeling until the end of this semester. Not until I opened some past year's midterm papers, I then realized that the difficulty of this module did not come from the content itself, but the awkwardness of how these concepts were tested. Luckily, this semester’s midterm paper is not that bad. The median was also really high this semester (26.5/40).</p>
+<p>For the second half of the semester, we were introduced to boolean algebra, combinatorial circuits, MSI components, and Sequential circuits. Personally, I found this section to be a little dry due to its nature of the subject and I found these topics to be disconnected to what I’d learned during the first half. Though, the tutorial questions where you have to design the circuits (except sequential circuit) were really fun (kind of IQ test).</p>
+<p>Here comes the last part of the module, and for me, one of the hardest topics: pipelining and cache. Not only do these topics have a lot of content to cover, but the lecturer only spent one week on each, and of course, it was during the last two weeks of the course.</p>
+<p>Until this part, I had a neutral opinion on this module: the general content was not that bad, slightly annoying, but it’s doable. But you might have forgotten one thing, this is the Prof Aaron module. His exams were pretty infamous. Things started to get downhill when I attempted the PYP for final exams. I still remember myself sitting at CLB and starting to attempt the final PYP, and oh man, what on earth I had to deal with. The final exam was not only tedious to its core, but also consisted of tricky counting questions. Sometimes, I might have more chances of winning a lottery than precisely counting the number of cache hits and tracing pipelining clock cycles. I knew that there had been a lot of complaints regarding the exam design, but I didn’t expect it to be this bad. Luckily, I had some friends taking this module, making the grinding process more doable. After finishing the finals, my opinion on this module is downright negative. Personally, I found this year's paper slightly more difficult than PYP. I didn’t finish the paper on time.</p>
+<p>There are a lot of things that could be improved in the next iterations of this module. I don’t think it’s a good idea to teach students MIPS a long while ago before reintroducing the concept at the end of the semester with pipelining. Other than that, the teaching quality is really great and I do not have any issues with it.
+For the exam, considering the fact that this had been a point of complaint for a while and the lecturer hadn't attempted to resolve the issue, maybe it was actually difficult to create an exam that truly assesses student understanding in two hours. Maybe it's not a bad thing to leave the nature of the course as it is.</p>
+<p>It’s for me one of the most memorable modules as a freshman :)</p>
+<h2 id="cs2106-introduction-to-operating-systems">CS2106 Introduction to Operating Systems<a class="headerlink" href="#cs2106-introduction-to-operating-systems" title="Permanent link">&para;</a></h2>
+<p>Both lecturers are pretty good at teaching. Prof Colin sometimes sidetracked talking about how x86 and memory management file system works which I really like. I felt like both profs really care about students.</p>
+<p>Content: Same as below. However, the teaching team decided to remove disk scheduling and file system implementation (ext2) this semester.</p>
+<p>Tutorial: The questions are tricky at times. For me, the first tutorial (on process abstraction) was the hardest. Do practice both in-class questions and the optional ones since they are likely the types of questions you would encounter during exams.</p>
+<p>Labs: The most time-consuming part of this course. There are four labs in this semester: basic C programming (linked list, hash table), creating your own shell, using synchronisation primitives to solve problems, and implementing memory allocator. Despite spending 3 - 5 hours (ymmv) on each lab, I learned a lot from them.</p>
+<p>Exam: The questions were mostly well set with some questionable wording at times (especially MCQ questions). The final exam was mostly about file system with a lot of calculations (rlly give me CS2100 vibes but easier).</p>
+<p>Despite being a CS2100 hater, CS2106 is one of my favourite 2k mods. Do take it quick if your planned focus area is Parallel Computing or Computer Security.</p>
+<p>TLDR: Fun mod. Labs were tricky. Practice tutorial questions a lot to prepare for exams.</p>
+<h2 id="cs3230-design-and-analysis-of-algorithms">CS3230 Design and Analysis of Algorithms<a class="headerlink" href="#cs3230-design-and-analysis-of-algorithms" title="Permanent link">&para;</a></h2>
+<p>Lectures were great. Despite the content basically following CLRS with better visualisation, I still captivated to enter the lecture. The discord server was pretty active, and the professors' dedication to addressing all questions was unmatched.</p>
+<p>There are three written assignments (asymptotic analysis, amortised analysis and problem reduction, NP-Completeness) and two programming assignments (basically LeetCode with some writings) The last written assignment is optional if your CA is already full.</p>
+<p>I felt like the exam was somehow unbalanced. For example, during finals, the NP-reduction question required some sort of Math-level of intelligence, but the DP question was straightup giveaway.</p>
+<h2 id="cs2103t-software-engineering">CS2103T Software Engineering<a class="headerlink" href="#cs2103t-software-engineering" title="Permanent link">&para;</a></h2>
+<p>I felt like this mod is not that bad as it seems.</p>
+<p>iP is not that big of a deal, but the nature of breath-first iterative approach was irritating. tP, on the other hand, is manageable (and fun) if your team is good and you know what you are supposed to do.</p>
+<p>As mentioned by other reviewers, the content itself is mostly fluff. I always want to sleep after reading through the textbook for like 10 minutes. May be coffee might help here ☕ :) I wouldn't say the content is useless because I learned a lot of new things (UML, design pattern). It's just boring (my problem I guess).</p>
+<p>However, my main gripe with this module is the requirement to go through the content of each week (around 10 - 30 pages of textbook) and answer the weekly quiz. It is so annoying how nitpicking these questions are, and don't forget that you have to do all of these concurrently with iP or tP. It's better to remove the weekly quiz entirely imo.</p>
+<p>Overall, be open-minded before taking this module.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../CS1101S/" class="md-footer__link md-footer__link--prev" aria-label="Previous: CS1101S Teaching Experience">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                CS1101S Teaching Experience
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../running/" class="md-footer__link md-footer__link--next" aria-label="Next: My running journey">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                My running journey
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/CATISNOTSODIUM" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "header.autohide", "navigation.footer", "announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
