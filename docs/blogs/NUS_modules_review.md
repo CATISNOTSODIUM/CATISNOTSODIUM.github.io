@@ -21,6 +21,16 @@ A list of relevant (Math and CS) modules I have taken in NUS.
     <li>ST2334 (A+)</li>
   </ul>
 </details>
+
+<details>
+  <summary>AY 25/26 Semester 1</summary>
+  <ul>
+    <li>CS2103T (A-)</li>
+    <li>CS2104 (B+)</li>
+    <li>CS2106 (A+)</li>
+    <li>CS3230 (A)</li>
+  </ul>
+</details>
 ---
 
 ## CS2030S - Programming Methodology II 
@@ -55,3 +65,39 @@ There are a lot of things that could be improved in the next iterations of this 
 For the exam, considering the fact that this had been a point of complaint for a while and the lecturer hadn't attempted to resolve the issue, maybe it was actually difficult to create an exam that truly assesses student understanding in two hours. Maybe it's not a bad thing to leave the nature of the course as it is.
 
 It’s for me one of the most memorable modules as a freshman :)
+
+## CS2106 Introduction to Operating Systems
+
+Both lecturers are pretty good at teaching. Prof Colin sometimes sidetracked talking about how x86 and memory management file system works which I really like. I felt like both profs really care about students.
+
+Content: Same as below. However, the teaching team decided to remove disk scheduling and file system implementation (ext2) this semester.
+
+Tutorial: The questions are tricky at times. For me, the first tutorial (on process abstraction) was the hardest. Do practice both in-class questions and the optional ones since they are likely the types of questions you would encounter during exams.
+
+Labs: The most time-consuming part of this course. There are four labs in this semester: basic C programming (linked list, hash table), creating your own shell, using synchronisation primitives to solve problems, and implementing memory allocator. Despite spending 3 - 5 hours (ymmv) on each lab, I learned a lot from them.
+
+Exam: The questions were mostly well set with some questionable wording at times (especially MCQ questions). The final exam was mostly about file system with a lot of calculations (rlly give me CS2100 vibes but easier).
+
+Despite being a CS2100 hater, CS2106 is one of my favourite 2k mods. Do take it quick if your planned focus area is Parallel Computing or Computer Security.
+
+TLDR: Fun mod. Labs were tricky. Practice tutorial questions a lot to prepare for exams.
+
+## CS3230 Design and Analysis of Algorithms
+
+Lectures were great. Despite the content basically following CLRS with better visualisation, I still captivated to enter the lecture. The discord server was pretty active, and the professors' dedication to addressing all questions was unmatched.
+
+There are three written assignments (asymptotic analysis, amortised analysis and problem reduction, NP-Completeness) and two programming assignments (basically LeetCode with some writings) The last written assignment is optional if your CA is already full.
+
+I felt like the exam was somehow unbalanced. For example, during finals, the NP-reduction question required some sort of Math-level of intelligence, but the DP question was straightup giveaway.
+
+## CS2103T Software Engineering
+
+I felt like this mod is not that bad as it seems.
+
+iP is not that big of a deal, but the nature of breath-first iterative approach was irritating. tP, on the other hand, is manageable (and fun) if your team is good and you know what you are supposed to do.
+
+As mentioned by other reviewers, the content itself is mostly fluff. I always want to sleep after reading through the textbook for like 10 minutes. May be coffee might help here ☕ :) I wouldn't say the content is useless because I learned a lot of new things (UML, design pattern). It's just boring (my problem I guess).
+
+However, my main gripe with this module is the requirement to go through the content of each week (around 10 - 30 pages of textbook) and answer the weekly quiz. It is so annoying how nitpicking these questions are, and don't forget that you have to do all of these concurrently with iP or tP. It's better to remove the weekly quiz entirely imo.
+
+Overall, be open-minded before taking this module.
