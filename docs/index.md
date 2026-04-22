@@ -1,17 +1,22 @@
 # Thitiwat Kosolpattanadurong
 ## About me
-I'm currently a Computer Science student at National University of Singapore (NUS). I'm used to be a physics enjoyer, participating in the International Physics Olympiad (IPhO). However, my interest shifted towards software engineering, programming languages, and algorithms. 
+> I'm currently a Computer Science student at National University of Singapore (NUS). I love cats, waffles and pancakes 🥞. I have a love-hate relationship with rain, but in Singapore, that's inevitable.
 
 #### Interests
-- Parallel Programming
-- Programming Language development
+- Parallel and Distribusted Systems
+- Programming Languages
 - Software Development
 - [Running](blogs/running.md)
 ---
 ## Teaching Assistant
+**CS2030s Teaching Assistant** <br>
+<small>AY 25/26 Sem 2</small><br>
+Conduct weekly two-hour lab sessions and providing feedback for assignments.
+
 **CS1101S Teaching Assistant** <br>
 <small>AY 25/26 Sem 1</small><br>
 Prepare studio materials and conduct weekly two-hour tutorial sessions for students. You can read my blog [here](blogs/CS1101S.md).
+
 
 ## Work Experiences
 **Software Developer at Computing for
