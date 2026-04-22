@@ -3,7 +3,7 @@
 > I'm currently a Computer Science student at National University of Singapore (NUS). I love cats, waffles and pancakes 🥞. I have a love-hate relationship with rain, but in Singapore, that's inevitable.
 
 #### Interests
-- Parallel and Distribusted Systems
+- Parallel and Distributed Systems
 - Programming Languages
 - Software Development
 - [Running](blogs/running.md)
@@ -11,7 +11,7 @@
 ## Teaching Assistant
 **CS2030s Teaching Assistant** <br>
 <small>AY 25/26 Sem 2</small><br>
-Conduct weekly two-hour lab sessions and providing feedback for assignments.
+Conduct weekly two-hour lab sessions and provide feedback for assignments.
 
 **CS1101S Teaching Assistant** <br>
 <small>AY 25/26 Sem 1</small><br>
