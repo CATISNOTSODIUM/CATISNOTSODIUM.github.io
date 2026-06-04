@@ -31,6 +31,18 @@ A list of relevant (Math and CS) modules I have taken in NUS.
     <li>CS3230 (A)</li>
   </ul>
 </details>
+
+<details>
+  <summary>AY 25/26 Semester 2</summary>
+  <ul>
+    <li>CS3236 (A)</li>
+    <li>CS2105 (A-)</li>
+    <li>CS3210 (A)</li>
+    <li>CS3211 (A)</li>
+    <li>CS4231 (A)</li>
+  </ul>
+</details>
+
 ---
 
 ## CS2030S - Programming Methodology II 
@@ -101,3 +113,6 @@ As mentioned by other reviewers, the content itself is mostly fluff. I always wa
 However, my main gripe with this module is the requirement to go through the content of each week (around 10 - 30 pages of textbook) and answer the weekly quiz. It is so annoying how nitpicking these questions are, and don't forget that you have to do all of these concurrently with iP or tP. It's better to remove the weekly quiz entirely imo.
 
 Overall, be open-minded before taking this module.
+
+## Parallel Trinity
+Check [here](./parallel.md).

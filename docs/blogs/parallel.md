@@ -52,4 +52,10 @@ Nevertheless, it is a solid module that teaches you three programming languages.
 ## CS4231 Parallel and Distributed Algorithms
 > Workload: 1/5, Enjoyability: 5/5 
 
-This mod is fun. Nothing much to say. The exams were interesting.
+It’s the module that felt scary and intrigued me for a while before I took it, due to the nature of the content, the assessment, the class environment, and the prof himself.
+
+The content is pretty interesting and among my favorite things I've learned at NUS. Contrary to some opinions, I felt like the first two weeks, mutual exclusion and synchronisation, were one of the hardest parts, because trying to follow the exhaustive proofs of Bakery's algorithm and Dekker's algorithm is pretty tricky (that's why model checkers exist, lol). I couldn't perfectly keep up with the proofs and almost dropped the module. Luckily, the rest of the stuff is pretty fun and more intuitive to understand (except FLP). One of the reasons I signed up for this module was to learn the FLP theorem, and it was actually worth it. The prof is GOAT.
+
+The exams consist of trivial questions and hard questions, yet worth equal marks. The questions are pretty interesting and require some thought and creativity lol.
+
+Overall, a very fun module. It’s not as scary as it seems, so don't be disheartened by the difficulty of the first two weeks.
