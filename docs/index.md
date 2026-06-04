@@ -19,9 +19,15 @@ Prepare studio materials and conduct weekly two-hour tutorial sessions for stude
 
 
 ## Work Experiences
+
+**HPC Intern - National Supercomputing Centre Singapore (NSCC)**
+<br><small> May 2026 - Present
+</small></br>
+
+
 **Software Developer at Computing for
 Voluntary Welfare Organisations (CVWO)** <br>
-<small>May 2025 - Present | SQL, Bash, Go, React Native, Redux </small><br>
+<small>May 2025 - July 2025 | SQL, Bash, Go, React Native, Redux </small><br>
 Migrated the Home Personal Care (HPC) module from Ruby on Rails to Go, and developed SQL scripts to transfer data from the original infrastructure to the new system for data exports. Developing a mobile app to facilitate consent requests from Next of Kin for Kwong Wai Shiu Hospital (KWSH), integrated with the existing CVWO-AAC system.
 
 **Software Developer at Source Academy** <br>
