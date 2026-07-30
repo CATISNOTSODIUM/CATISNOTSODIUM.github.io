@@ -21,8 +21,12 @@ Prepare studio materials and conduct weekly two-hour tutorial sessions for stude
 ## Work Experiences
 
 **HPC Intern - National Supercomputing Centre Singapore (NSCC)**
-<br><small> May 2026 - Present
-</small></br>
+<br><small> May 2026 - July 2026 | Fortran, CUDA, HPC
+</small>
+
+* Focuses on how to run quantum circuit simulation benchmarks effectively on large-scale NSCC systems. For instance, analysing performance characteristics and scability on various quantum circuits, and iteratively profiling & optimising system and environment configurations to acheive highest performance. 
+
+* Adhoc tasks, such as setting up environment configurations, writing extra CUDA kernel codes,  packaging software, and writing documentation.
 
 
 **Software Developer at Computing for
