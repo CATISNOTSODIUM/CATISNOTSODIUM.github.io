@@ -1,0 +1,109 @@
+/* ============================================================
+   Home page hero banner
+   ============================================================ */
+
+.cat-hero {
+  position: relative;
+  isolation: isolate;
+  margin: 0;
+  padding: 4.5rem 0 5rem;
+  background-image: url("../assets/hero-bg.svg");
+  background-size: cover;
+  background-position: center 62%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Scrim for text legibility (light mode) */
+.cat-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 249, 237, 0.9) 0%,
+    rgba(255, 249, 237, 0.55) 42%,
+    rgba(255, 249, 237, 0) 78%
+  );
+}
+
+.cat-hero__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.cat-hero__title {
+  margin: 0;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  font-size: clamp(2rem, 1.2rem + 3.6vw, 3.6rem);
+  color: #2b2113;
+}
+
+.cat-hero__subtitle {
+  margin: 0;
+  max-width: 40rem;
+  font-size: clamp(0.95rem, 0.85rem + 0.5vw, 1.2rem);
+  line-height: 1.55;
+  color: #5a4a2c;
+}
+
+.cat-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+/* Keep Material buttons tidy inside the hero */
+.cat-hero .md-button {
+  margin: 0;
+}
+
+/* ------------------------------------------------------------
+   Dark mode (slate)
+   ------------------------------------------------------------ */
+[data-md-color-scheme="slate"] .cat-hero::before {
+  background: linear-gradient(
+    90deg,
+    rgba(16, 13, 8, 0.9) 0%,
+    rgba(16, 13, 8, 0.62) 48%,
+    rgba(16, 13, 8, 0.28) 100%
+  );
+}
+
+[data-md-color-scheme="slate"] .cat-hero__title {
+  color: #f6efe1;
+}
+
+[data-md-color-scheme="slate"] .cat-hero__subtitle {
+  color: #d9ccb2;
+}
+
+/* ------------------------------------------------------------
+   Small screens
+   ------------------------------------------------------------ */
+@media screen and (max-width: 44.9375em) {
+  .cat-hero {
+    padding: 3rem 0 3.25rem;
+    background-position: center bottom;
+  }
+  .cat-hero::before {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 249, 237, 0.82) 0%,
+      rgba(255, 249, 237, 0.6) 100%
+    );
+  }
+  [data-md-color-scheme="slate"] .cat-hero::before {
+    background: linear-gradient(
+      180deg,
+      rgba(16, 13, 8, 0.86) 0%,
+      rgba(16, 13, 8, 0.7) 100%
+    );
+  }
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 520" preserveAspectRatio="xMidYMax slice" role="img" aria-label="Amber landscape">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf2d8"/>
+      <stop offset="0.45" stop-color="#ffdd93"/>
+      <stop offset="0.78" stop-color="#ffc061"/>
+      <stop offset="1" stop-color="#ffab45"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3d0" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff3d0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1440" height="520" fill="url(#sky)"/>
+
+  <!-- sun glow + sun -->
+  <circle cx="1110" cy="235" r="230" fill="url(#sunGlow)"/>
+  <circle cx="1110" cy="235" r="92" fill="#ff9f2e" fill-opacity="0.92"/>
+
+  <!-- birds -->
+  <g stroke="#7a4a1e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.55">
+    <path d="M188,118 q13,-11 26,0 q13,-11 26,0"/>
+    <path d="M270,150 q10,-8 20,0 q10,-8 20,0"/>
+    <path d="M150,168 q8,-6 16,0 q8,-6 16,0"/>
+  </g>
+
+  <!-- back range -->
+  <path d="M0,360 C240,318 480,300 720,332 C960,364 1200,332 1440,300 L1440,520 L0,520 Z"
+        fill="#f2a95e" fill-opacity="0.55"/>
+  <!-- mid range -->
+  <path d="M0,412 C280,368 520,404 780,400 C1040,396 1250,378 1440,410 L1440,520 L0,520 Z"
+        fill="#e08b3e" fill-opacity="0.72"/>
+  <!-- front range -->
+  <path d="M0,462 C300,430 600,474 900,456 C1120,443 1300,472 1440,456 L1440,520 L0,520 Z"
+        fill="#c9722b" fill-opacity="0.9"/>
+  <!-- foreground -->
+  <path d="M0,498 C360,480 760,506 1040,494 C1240,486 1360,500 1440,496 L1440,520 L0,520 Z"
+        fill="#a85c22"/>
+</svg>

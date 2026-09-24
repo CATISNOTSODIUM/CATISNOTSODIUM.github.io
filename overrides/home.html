@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+
+<!--
+  Custom home template.
+  Enabled per-page via `template: home.html` in the page front matter (see docs/index.md).
+  Renders a full-width hero banner below the nav, then the normal page content.
+-->
+
+{% block tabs %}
+  {{ super() }}
+  <section class="cat-hero">
+    <div class="cat-hero__inner md-grid md-typeset">
+      <div class="cat-hero__title">Hi, I'm Thitiwat 👋</div>
+      <p class="cat-hero__subtitle">
+        Computer Science @ NUS — into parallel &amp; distributed systems,
+        programming languages, and software development. I also love cats,
+        waffles, and pancakes 🥞.
+      </p>
+      <div class="cat-hero__actions">
+        <a href="{{ 'blogs/' | url }}" class="md-button md-button--primary">
+          Read my blog
+        </a>
+        <a href="https://github.com/CATISNOTSODIUM" class="md-button"
+           target="_blank" rel="noopener">
+          My GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+{% endblock %}
