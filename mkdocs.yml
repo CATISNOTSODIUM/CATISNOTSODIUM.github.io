@@ -13,10 +13,12 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
+  font:
+    text: Inconsolata
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: amber
+      primary: red
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
@@ -24,7 +26,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: amber
+      primary: red
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -43,6 +45,13 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/CATISNOTSODIUM
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - md_in_html
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

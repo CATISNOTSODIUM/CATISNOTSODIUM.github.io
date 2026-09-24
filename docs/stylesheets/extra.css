@@ -20,12 +20,10 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 249, 237, 0.9) 0%,
-    rgba(255, 249, 237, 0.55) 42%,
-    rgba(255, 249, 237, 0) 78%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 249, 237, 0.9) 0%,
+      rgba(255, 249, 237, 0.55) 42%,
+      rgba(255, 249, 237, 0) 78%);
 }
 
 .cat-hero__inner {
@@ -68,12 +66,10 @@
    Dark mode (slate)
    ------------------------------------------------------------ */
 [data-md-color-scheme="slate"] .cat-hero::before {
-  background: linear-gradient(
-    90deg,
-    rgba(16, 13, 8, 0.9) 0%,
-    rgba(16, 13, 8, 0.62) 48%,
-    rgba(16, 13, 8, 0.28) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(16, 13, 8, 0.9) 0%,
+      rgba(16, 13, 8, 0.62) 48%,
+      rgba(16, 13, 8, 0.28) 100%);
 }
 
 [data-md-color-scheme="slate"] .cat-hero__title {
@@ -92,18 +88,61 @@
     padding: 3rem 0 3.25rem;
     background-position: center bottom;
   }
+
   .cat-hero::before {
-    background: linear-gradient(
-      180deg,
-      rgba(255, 249, 237, 0.82) 0%,
-      rgba(255, 249, 237, 0.6) 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(255, 249, 237, 0.82) 0%,
+        rgba(255, 249, 237, 0.6) 100%);
   }
+
   [data-md-color-scheme="slate"] .cat-hero::before {
-    background: linear-gradient(
-      180deg,
-      rgba(16, 13, 8, 0.86) 0%,
-      rgba(16, 13, 8, 0.7) 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(16, 13, 8, 0.86) 0%,
+        rgba(16, 13, 8, 0.7) 100%);
   }
+}
+
+.cat {
+  display: inline-block;
+  margin-left: 0.4em;
+  font-size: 0.75em;
+  min-width: 7.5em;
+  /* stops the text shifting when the face changes */
+  cursor: pointer;
+  user-select: none;
+  color: var(--md-default-fg-color--light);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* idle: blinks every few seconds */
+.cat::after {
+  content: "(=^･ω･^=)";
+  animation: cat-blink 4s infinite;
+}
+
+@keyframes cat-blink {
+
+  0%,
+  90%,
+  100% {
+    content: "^･w･^";
+  }
+
+  93%,
+  96% {
+    content: "^0ω0^";
+  }
+}
+
+/* hover (and tap on mobile): waves at you */
+.cat:hover,
+.cat:active {
+  color: var(--md-accent-fg-color);
+  transform: rotate(-1deg) scale(1.05);
+}
+
+.cat:hover::after,
+.cat:active::after {
+  animation: none;
+  content: "^0ω0^";
 }

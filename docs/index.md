@@ -1,22 +1,19 @@
-# Thitiwat Kosolpattanadurong
-## About me
-> I'm currently a Computer Science student at National University of Singapore (NUS). I love cats, waffles and pancakes 🥞. I have a love-hate relationship with rain, but in Singapore, that's inevitable.
+# Thitiwat K. <span class="cat" title="meow"></span>
+
+## About me  
+> Sup! I'm Beam, Y3 Computer Science student at National University of Singapore (NUS). I love cats, waffles and pancakes 🥞.
 
 #### Interests
-- Parallel and Distributed Systems
-- Programming Languages
-- Software Development
-- [Running](blogs/running.md)
+- High Performance Computing (HPC)
+- Distributed Algorithm
+- A fair bit of Networking
+- A bit of Programming Languages Development 
+- Software Development (SWE)
+
+> Though I initially like graph algorithms (learning expanders from CS5275), graph algorithm researchs are out of my league.
+
+
 ---
-## Teaching Assistant
-**CS2030s Teaching Assistant** <br>
-<small>AY 25/26 Sem 2</small><br>
-Conduct weekly two-hour lab sessions and provide feedback for assignments.
-
-**CS1101S Teaching Assistant** <br>
-<small>AY 25/26 Sem 1</small><br>
-Prepare studio materials and conduct weekly two-hour tutorial sessions for students. You can read my blog [here](blogs/CS1101S.md).
-
 
 ## Work Experiences
 
@@ -47,6 +44,38 @@ Developed and implemented an API management system for an essay grading platform
 Developed and maintained the official website for Thai students in Singapore. Developed an E-Card component for the ATSIS student membership system, enabling digital membership verification
 and streamlined access to exclusive benefits.
 
+## Researches
+**Distributed System Research Intern - National University of Singapore**
+<br><small> August 2026 - Present 
+</small></br>
+
+
+**Research Student - Kamnoetvidya Science Academy**
+<br><small> Jun 2022 - Oct 2023
+</small></br>
+
+* Investigated clustering behavior of magnetic dipoles in fluidic systems using LAMMPS molecular dynamics simulation framework
+* Leveraged LAMMPS' multithreaded capabilities to optimize simulation performance and handle complex particle interactions
+
+
+## Teaching Assistant
+
+**CS2105 Teaching Assistant** <br>
+<small>AY 26/27 Sem 1</small><br>
+Conduct two weekly tutorial sessions. Demo cool networking stuff :/
+
+**CS2030s Teaching Assistant** <br>
+<small>AY 25/26 Sem 2, AY 26/27 Sem 1</small><br>
+Conduct weekly two-hour lab sessions and provide feedback for assignments.
+
+**CS1101S Teaching Assistant** <br>
+<small>AY 25/26 Sem 1</small><br>
+Prepare studio materials and conduct weekly two-hour tutorial sessions for students. 
+Teach some cool programming language related concepts such as substitution-based interpreter and metacircular evaluator.
+You can read my blog [here](blogs/CS1101S.md).
+
+
+
 ## Open Source Contributions
 
 ### Source Academy
@@ -59,6 +88,11 @@ and streamlined access to exclusive benefits.
 ---
 
 ## Personal Projects
+
+**`pptx-probe` - Using PowerPoint as an IDE**<br>
+<small> Go | [Github](https://github.com/CATISNOTSODIUM/pptx-probe) </small><br>
+A simple automation tool that transforms Microsoft PowerPoint into a surprisingly capable IDE (I know it sounds stupid, but it's indeed stupid.) for technical presentations and rapid prototyping. It is designed to bridge the gap between static slides and active codebases by treating slide text boxes as source files.
+
  **BOF - An esoteric programming language (BF) with macros**<br>
 <small>Typescript | [Github](https://bof-blush.vercel.app/) </small><br>
 BOF is a BF interpreter with high level features such as variable declarations, assignments, macros and recursion. BOF uses recursive descent parsing with stack-based machine to interpret the program.
@@ -78,6 +112,8 @@ A backend for identifying strikethrough images by using generative adversarial n
 <small> TPhO 20 | Thailand </small><br>
 - **Thailand Mathematics Olympiad (TMO) - Silver Medal**<br>
 <small> TMO 17, 18 | Thailand </small><br>
+
+> I did a fair bit of computational physics research in the past. However, looking back after taking parallel computing courses (check out [this](blogs/parallel.md)), I don't think what I've done is a good practice.
 
 ### Mathematical Modeling
 Mathematical modeling competition is a team competition that encourages students to come up with mathematical models to solve real-world problems under limited days (5 days for IMMC, 2 weeks for HiMCM). This is definitely one of my favourite types of competition. Props to all of my teammates for carrying the team!
