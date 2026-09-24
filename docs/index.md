@@ -10,7 +10,7 @@
 - A bit of Programming Languages Development 
 - Software Development (SWE)
 
-> Though I initially like graph algorithms (learning expanders from CS5275), graph algorithm researchs are out of my league.
+> Though I initially like graph algorithms (learning expanders from CS5275), graph algorithm research is out of my league.
 
 
 ---
